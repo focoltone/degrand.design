@@ -1,6 +1,43 @@
+
+@font-face {
+    font-family: 'arazati-regular';
+    src: url('../fonts/arazati-regular.woff2') format('woff2'),
+         url('../fonts/arazati-regular-.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arazati-negra';
+    src: url('../fonts/arazati-negra.woff2') format('woff2'),
+         url('../fonts/arazati-negra.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arazati-liviana';
+    src: url('../fonts/arazati-liviana.woff2') format('woff2'),
+         url('../fonts/arazati-liviana.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arazati-clarita';
+    src: url('../fonts/arazati-clarita.woff2') format('woff2'),
+         url('../fonts/arazati-clarita.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 * {
-	font-family: 'arazati', helvetica;
-  	font-size: 1rem;
+	font-family: sans-serif;
 	-moz-box-sizing: border-box;
   	box-sizing: border-box; 
   	  -webkit-font-smoothing: antialiased;
@@ -105,15 +142,17 @@ button {
 @media (min-width: 600px) {
  
 body {
-	background: url("../bg.png") repeat-y top, #EFEEFE;
-
+	background: url("../bg.png") no-repeat, #EFEEFE;
 	background-size: 100%;
-	margin: 15px;
+	margin: 0px;
   	color: #454954;
 }
 }
 
-
+html {
+	min-height: 100%;
+	height: 100%;
+}
 
 /* main container*/ 
 body div:first-child  {
@@ -125,6 +164,10 @@ body div:first-child  {
  @media (min-width: 600px) {
   body {
   	display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    align-content: center;
   }
   body > div  {
 	max-width:37.5rem;
@@ -155,14 +198,14 @@ body div:first-child  img {
 
 /* name&title */
 body div:first-child div:nth-child(2) div:first-child {
-	font-family: 'arazati-liviana';
-	font-size: 0.875rem;
+	font-family: 'arazati-liviana', sans-serif;
+	font-size: 1rem;
 	text-align: center;
 	margin-top: 1.25rem;
 }
 
 body div:first-child div:first-child strong {
-	font-family: 'arazati';
+	font-family: 'arazati-regular', sans-serif;
 	font-weight: normal;
 	margin-right: 0.625rem;
 
@@ -177,7 +220,7 @@ h1 {
 }
 
 h3 {
-	font-family: 'arazati-liviana';
+	font-family: 'arazati-liviana', sans-serif;
 	font-size:1rem;
 	font-weight:normal;
 }
@@ -218,19 +261,11 @@ body a:hover::after {
 }
 
 /*"or"*/
-body div:first-child div:nth-child(6) {
-	font-family: 'arazati-clarita';
-	font-size:1rem;
+body div:first-child div:nth-child(3) div:nth-child(4) {
+	font-family: 'arazati-clarita', sans-serif;
+	font-size: 1rem;
 }
 
-
-/*body div:first-child div:nth-child(6)::after {
-	content: '—';
-	position: relative;
-	color: #FC3D4D;
-	top: .125rem;
-	left: .3125rem;
-}*/
 
 /*form*/
 
@@ -239,7 +274,7 @@ form {
 }
 
 label {
- 	font-family: 'arazati-negra';
+ 	font-family: 'arazati-negra', sans-serif;
  	font-size: 1rem;
  	margin-bottom: 0.9375rem;
  	display: block;
@@ -286,7 +321,7 @@ label {
 
 [class^="btn--"] {
   margin-bottom: 1.42857em; 
-  font-family: 'arazati-negra';
+  font-family: 'arazati-negra', sans-serif;
   font-size:0.875rem;
 }
 
@@ -306,6 +341,3 @@ label {
   }
 
 }
-
-
-/*# sourceMappingURL=application.css.map */

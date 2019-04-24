@@ -11,7 +11,7 @@
       } else {
         $.ajax({
           method: 'POST',
-          url: 'https://formspree.io/cpdegrand@gmail.com',
+          url: 'https://formspree.io/xjaeadom',
           data: $('#contact-form').serialize(),
           datatype: 'json' });
 
