@@ -1,4 +1,4 @@
-
+../fonts/
 
 /**
  * Fix fonts that render as bold in Firefox
@@ -27,80 +27,80 @@ html {
 
 @font-face {
     font-family: 'proxima_novalight';
-    src: url('proximanova-light-webfont.woff2') format('woff2'),
-         url('proximanova-light-webfont.woff') format('woff');
+    src: url(../fonts/'proximanova-light-webfont.woff2') format('woff2'),
+         url(../fonts/'proximanova-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'proximanova-regular';
-    src: url('proximanova-regular.woff2') format('woff2'),
-         url('proximanova-regular.woff') format('woff');
+    src: url(../fonts/'proximanova-regular.woff2') format('woff2'),
+         url(../fonts/'proximanova-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'proxima_novasemibold';
-    src: url('proximanova-semibold-webfont.woff2') format('woff2'),
-         url('proximanova-semibold-webfont.woff') format('woff');
+    src: url(../fonts/'proximanova-semibold-webfont.woff2') format('woff2'),
+         url(../fonts/'proximanova-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'proxima_novabold';
-    src: url('proximanova-bold-webfont.woff2') format('woff2'),
-         url('proximanova-bold-webfont.woff') format('woff');
+    src: url(../fonts/'proximanova-bold-webfont.woff2') format('woff2'),
+         url(../fonts/'proximanova-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'proxima_novaextrabold';
-    src: url('proximanova-extrabold-webfont.woff2') format('woff2'),
-         url('proximanova-extrabold-webfont.woff') format('woff');
+    src: url(../fonts/'proximanova-extrabold-webfont.woff2') format('woff2'),
+         url(../fonts/'proximanova-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'proxima_novablack';
-    src: url('proximanova-black-webfont.woff2') format('woff2'),
-         url('proximanova-black-webfont.woff') format('woff');
+    src: url(../fonts/'proximanova-black-webfont.woff2') format('woff2'),
+         url(../fonts/'proximanova-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'proxima_novalight_italic';
-    src: url('proximanova-lightitalic-webfont.woff2') format('woff2'),
-         url('proximanova-lightitalic-webfont.woff') format('woff');
+    src: url(../fonts/'proximanova-lightitalic-webfont.woff2') format('woff2'),
+         url(../fonts/'proximanova-lightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'proxima_novaregular_italic';
-    src: url('proximanova-regitalic-webfont.woff2') format('woff2'),
-         url('proximanova-regitalic-webfont.woff') format('woff');
+    src: url(../fonts/'proximanova-regitalic-webfont.woff2') format('woff2'),
+         url(../fonts/'proximanova-regitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'proxima_novasemibold_italic';
-    src: url('proximanova-semibolditalic-webfont.woff2') format('woff2'),
-         url('proximanova-semibolditalic-webfont.woff') format('woff');
+    src: url(../fonts/'proximanova-semibolditalic-webfont.woff2') format('woff2'),
+         url(../fonts/'proximanova-semibolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'proxima_nova_rgbold_italic';
-    src: url('proximanova-boldit-webfont.woff2') format('woff2'),
-         url('proximanova-boldit-webfont.woff') format('woff');
+    src: url(../fonts/'proximanova-boldit-webfont.woff2') format('woff2'),
+         url(../fonts/'proximanova-boldit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -108,8 +108,8 @@ html {
 
 @font-face {
     font-family: 'ropa_soft_pttextrabold';
-    src: url('lettersoup_-_ropasoftptt-extrabold-webfont.woff2') format('woff2'),
-         url('lettersoup_-_ropasoftptt-extrabold-webfont.woff') format('woff');
+    src: url(../fonts/'lettersoup_-_ropasoftptt-extrabold-webfont.woff2') format('woff2'),
+         url(../fonts/'lettersoup_-_ropasoftptt-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
