@@ -445,7 +445,7 @@
 .testing-part3-copy + div {
 	margin-top: 2rem;
 }
-.testing-part3-copy img {
+.testing-part3-copy .final {
 	width: 33rem;
 	box-shadow: 15px 24px 90px rgba(69, 73, 84, 0.15);
 	transform: scale(1);
@@ -495,6 +495,9 @@
 	.section-wrap + div > section {
 		margin-top: 23rem;
 	}
+	.section-wrap a {
+		font-weight: 600
+	}
 	.research-copy, .discovery-copy, .testing-copy, .testing-part2-copy {
 		margin-right: 4.625rem;
 	}
@@ -513,6 +516,11 @@
 	}	
 	.testing-part3-copy h2 {
 		margin-top: 4rem;
+		color:;
+	}
+	.testing-part3-copy a {
+		font-weight: 600;
+		color: #722BFF;
 	}
 
 	.testing-part2-copy , .testing-part3-copy  {
