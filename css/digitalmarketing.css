@@ -4,6 +4,9 @@
     padding: 0 2rem 3rem;
 }
 
+.testing {
+	background: #edeff7;
+}
 /*HEADERS*/
 .digital-intro h1, .intro-title-wrap h1, .background h1, .high-level h1, .research h1, .discovery h1, .testing h1{
 	font-size: 2rem;
@@ -493,7 +496,7 @@
 		flex-direction: column;
 	}
 	.section-wrap + div > section {
-		margin-top: 23rem;
+		margin-top: 16rem;
 	}
 	.section-wrap a {
 		font-weight: 600
