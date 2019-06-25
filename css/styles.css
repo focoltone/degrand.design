@@ -1,4 +1,4 @@
-../fonts/
+@import url("fonts.css");
 
 /**
  * Fix fonts that render as bold in Firefox
@@ -25,7 +25,7 @@ html {
 }
 
 
-@font-face {
+/*@font-face {
     font-family: 'proxima_novalight';
     src: url(../fonts/'proximanova-light-webfont.woff2') format('woff2'),
          url(../fonts/'proximanova-light-webfont.woff') format('woff');
@@ -112,7 +112,7 @@ html {
          url(../fonts/'lettersoup_-_ropasoftptt-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
