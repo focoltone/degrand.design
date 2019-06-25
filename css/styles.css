@@ -522,11 +522,6 @@ header img {
 @media (min-width: 660px) {
     .web-app, .mobile-app, .marketing-app, .reporting-app {
         width: 30%;
-        height: 28.25rem;
-        display: flex;
-        padding: 3rem 2.1875rem 0 4.0265rem;
-        flex-direction: column;
-        justify-content: space-between;
         box-shadow: none;
         transition: box-shadow .3s,border-color .3s, background-size .3s;
 
