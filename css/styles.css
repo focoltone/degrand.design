@@ -13,6 +13,11 @@ html {
   font-smoothing: antialiased;
   font-weight: 400;
 }
+* {
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
 
 /**
  * Firefox specific rule
@@ -290,10 +295,11 @@ header img {
     margin-top: 7rem;
     margin-left: 2rem;
 }
+
 @media (min-width: 660px) {
     .intro {
-        min-width: 30rem;
-        margin-left: 7rem;
+        padding-left: 5rem;
+        width: 40%;
     }
 }
 .intro h1 {
@@ -378,11 +384,17 @@ header img {
         display: flex;
         margin: 0 auto;
     }
+}
+@media (min-width: 1145px) {
+
+  
     .hero div:last-of-type {
         display: block;
+        width: 60%;
     }
     .hero img {
-        width: 53rem;
+        width: 100%;
+        height: auto;
     }
   }
 
@@ -458,23 +470,18 @@ header img {
     margin-top: 2rem;
     padding-bottom: 4rem;
 }
-@media (min-width: 660px) {
-    .cards {
-        display: flex;
-        flex-wrap: wrap;
-    }
 
+.cards a {
+    padding:1.75rem;
+    display: block;
+    border-radius: 5px;
+    background: #5042AD;
+    margin-right: 2rem;
 }
 .cards * {
     margin-top: 0.75rem;
 }
-.web-app, .mobile-app, .marketing-app, .reporting-app {
-    margin: 2rem 4rem 0 0;
-    background: #fff;
-    padding:1.75rem ;
-    box-shadow: 5px 5px 0px #E9EAFE;
-    border-radius: 5px;
-}
+
 .cards h1 {
     font-size: 1.25rem;
     font-weight: 700;
@@ -492,22 +499,19 @@ header img {
     line-height: 1.25rem;
     color: white;
 }
-.cards li {
-    margin-bottom: 2rem;
-}
-.cards li a {
+
+.cards li  {
     font-family: 'ropasoftptt-extrabold', helvetica, sans-serif;
     font-size: 1rem;
     color: #CFC8F8;
     letter-spacing: 1px;
     position: relative;
     padding-right: 2rem;
-}
-.cards li a:nth-of-type(1) {
-    padding-right: 0;
+    margin-bottom: 2rem;
+    display: inline-block;
 }
 
-.cards  li a:nth-of-type(2):after {
+.cards  li:after {
     content:"";
     position: absolute;
     width: 22px;
@@ -520,15 +524,16 @@ header img {
 }
 
 @media (min-width: 660px) {
-    .web-app, .mobile-app, .marketing-app, .reporting-app {
-        width: 30%;
+
+    .cards {
+        display: flex;
+    }
+    .cards a {
+        width: 35%;
         box-shadow: none;
         transition: box-shadow .3s,border-color .3s, background-size .3s;
-
     }
-
-
-    .web-app:hover, .mobile-app:hover {
+    .cards a:hover, .cards a:hover {
         border-color: #595D67;
         cursor: pointer;
         box-shadow: 10px 10px 0 0 rgba(0,0,0,.2);
@@ -569,7 +574,7 @@ header img {
     font-weight: 700;
     line-height: 2.625rem;
     margin-bottom: 1rem;
-}
+    }
     .cards h2{
         font-size: 1.75rem;
     }
@@ -625,20 +630,25 @@ header img {
 
 /*====== process */
 
-/*img {
- transition: all .2s ease-in-out; 
-}
-img:hover { transform: scale(8.0); }*/
-
 
 .process {
-    background: #ffffff;
+ 
+}
+
+.process-wrap {
+    text-align: center;
+}
+
+.process-wrap .step {
+    margin-top: 2rem;
 }
 .process div ~ h3 {
-    color: #595D67;
     font-size: 1.25rem;
     font-weight: 800;
     position: relative;
+}
+.web-app, .mobile-app {
+    background: #5042AD;
 }
 
 @media (min-width: 660px) {
@@ -717,7 +727,7 @@ img:hover { transform: scale(8.0); }*/
 }
 
 .about h2 ~ div {
-    width: 55%;
+    width: 100%;
 }
 .about p:first-child{
     font-weight: 600;
@@ -735,6 +745,10 @@ img:hover { transform: scale(8.0); }*/
         line-height: 3.5rem;
         font-size: 3rem;
   }
+
+  .about h2 ~ div {
+    width: 55%;
+}
 }
 .about strong {
     text-transform: uppercase;
@@ -871,13 +885,16 @@ img:hover { transform: scale(8.0); }*/
     flex-wrap: wrap;
 
 }
+
+footer .ux-tools, .handoff-webtech, .resources, #form {
+width: 50%;
 }
-    footer .ux-tools, .handoff-webtech, .resources, #form {
-    width: 45%;
-    }
-    footer #form {
-    width: 100%;
-    } 
+
+footer #form {
+width: 100%;
+margin-top: 3rem;
+} 
+
 @media (min-width: 760px)  {
     .footer-wrap {
     justify-content: center;
