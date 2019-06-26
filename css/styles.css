@@ -259,6 +259,7 @@ header img {
 @media (min-width: 660px) {
     #menu li {
         margin-top: -3px;
+        border-bottom: 3px solid transparent;
     }
 }
 .menu__list {
