@@ -177,19 +177,9 @@
 .item p {
     line-height: 2.25rem;
     margin-top: 1rem;
-    position: relative;
     font-size: 1.325rem;
     font-family: "proximanova-light", helvetica, sans-serif;
     letter-spacing: .5px;
-}
-.item p:before {
-    content: "";
-    position: absolute;
-    width: 5px;
-    height: 5px;
-    top: 0.625rem;
-    left: -1rem;
-    background: url(../images/ellipse.svg) no-repeat;
 }
 
 
