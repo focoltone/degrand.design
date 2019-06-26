@@ -293,13 +293,12 @@ header img {
 .intro {
     display: flex;
     flex-direction: column;
-    margin-top: 7rem;
+    margin-top: 3rem;
     margin-left: 2rem;
 }
 
 @media (min-width: 660px) {
     .intro {
-        padding-left: 5rem;
         width: 40%;
     }
 }
@@ -384,6 +383,7 @@ header img {
     .hero {
         display: flex;
         margin: 0 auto;
+        width: 90%;
     }
 }
 @media (min-width: 1145px) {
@@ -904,6 +904,7 @@ margin-top: 3rem;
     }
     footer #form {
     width: 35%;
+    margin-top: 0;
     }  
 }
 footer h2 {
