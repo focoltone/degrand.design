@@ -1,0 +1,83 @@
+
+
+@media (min-width: 660px) {
+
+    .cards {
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .cards a {
+        width: 35%;
+        box-shadow: none;
+        transition: box-shadow .3s,border-color .3s, background-size .3s;
+    }
+    .cards a:hover, .cards a:hover {
+        border-color: #595D67;
+        cursor: pointer;
+        box-shadow: 10px 10px 0 0 rgba(0,0,0,.2);
+    }
+    .web-app {
+        background: url(../images/digital.svg) #5042AD top right no-repeat;
+
+    }
+    .mobile-app {
+        background: url(../images/arts.svg) #5042AD top right no-repeat;
+    }
+    .reporting-app {
+        background: url(../images/reporting.svg) #5042AD top right no-repeat;
+
+    }
+    .marketing-app {
+        background: url(../images/marketing.svg) #5042AD top right no-repeat;
+    }
+    .cards a:nth-child(3), .cards a:nth-child(4) {
+        box-shadow: unset;
+        border: none;
+        border-color: unset;
+        cursor: unset;
+        opacity: .7;
+        user-select: none;
+    }
+     .cards a:nth-child(3), .cards a:nth-child(4)  {
+        box-shadow: none;
+        border: none;
+        border-color: unset;
+        cursor: unset;
+        user-select: none;
+    }
+}
+
+@media (min-width: 900px) {
+    .cards h1 {
+    font-size: 2.625rem;
+    font-weight: 700;
+    line-height: 2.625rem;
+    margin-bottom: 1rem;
+    }
+    .cards h2{
+        font-size: 1.75rem;
+    }
+    .cards p {
+        line-height: 1.625rem;
+        font-size: 1.125rem;
+        margin-top: 1rem;
+        font-family: "proximanova-light", helvetica, sans-serif;
+        letter-spacing: 0.5px;
+    }
+}
+@media (min-width: 1200px) {
+    .cards h1 {
+    font-size: 4.25rem;
+    line-height: 4.25rem;
+    }
+    .more {
+        text-align: center;
+    }
+    .more h3 {
+    font-size: 1rem;
+    font-family: "proximanova-light", helvetica, sans-serif;
+    }
+
+
+}
+

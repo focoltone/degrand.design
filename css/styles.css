@@ -479,7 +479,7 @@ header img {
     margin-right: 2rem;
 }
 .cards * {
-    margin-top: 0.75rem;
+    margin-top: 2rem;
 }
 
 .cards h1 {
@@ -508,7 +508,7 @@ header img {
     position: relative;
     padding-right: 2rem;
     margin-bottom: 2rem;
-    display: inline-block;
+    display: inline-block
 }
 
 .cards  li:after {
@@ -538,20 +538,21 @@ header img {
         cursor: pointer;
         box-shadow: 10px 10px 0 0 rgba(0,0,0,.2);
     }
-    .web-app {
-        background: url(../images/digital.svg) #5042AD top right no-repeat;
-
+    /*.web-app {
+        background-image: url(../images/digital.svg);
+        background-position: -5px -40px;
+        background-repeat: no-repeat;
     }
     .mobile-app {
-        background: url(../images/arts.svg) #5042AD top right no-repeat;
+        background-image: url(../images/arts.svg) top right no-repeat;
     }
     .reporting-app {
-        background: url(../images/reporting.svg) #5042AD top right no-repeat;
+        background-image: url(../images/reporting.svg) top right no-repeat;
 
     }
     .marketing-app {
-        background: url(../images/marketing.svg) #5042AD top right no-repeat;
-    }
+        background-image: url(../images/marketing.svg) top right no-repeat;
+    }*/
     .marketing-app, .reporting-app {
         box-shadow: unset;
         border: none;
@@ -647,9 +648,7 @@ header img {
     font-weight: 800;
     position: relative;
 }
-.web-app, .mobile-app {
-    background: #5042AD;
-}
+
 
 @media (min-width: 660px) {
     .process div ~ h3 {
