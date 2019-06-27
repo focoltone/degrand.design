@@ -17,14 +17,13 @@
 	line-height: 1rem;
 	color:#454954;
 	padding: 2rem 0;
-	font-weight: 700;
 }
 @media (min-width: 860px) {
 	.digital-intro h1, .intro-title-wrap h1, .research h1, .discovery h1, .double-column h1{
 		font-size: 3.9375rem;
 		line-height: 4rem;
 		padding: 5rem 0 0;
-		font-weight: 700;
+		font-family: 'proximanova-bold', helvetica, sans-serif;
 	}
 	.intro-wrap, .background-wrap, .high-level, .new-tool, .research, .discovery, .double-column  {
     padding: 2rem 7.625rem 3rem;
@@ -330,7 +329,7 @@
 	letter-spacing: .5px;
 	font-size: 2.5rem;
 	line-height: 3.125rem;
-	font-weight:700;
+	font-family: 'proximanova-bold', helvetica, sans-serif;
 }
 
 .new-tool p {

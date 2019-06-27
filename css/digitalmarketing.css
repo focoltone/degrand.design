@@ -21,6 +21,7 @@
 		line-height: 4rem;
 		padding: 2rem 0;
 		font-weight: 700;
+		font-family: 'proximanova-bold', helvetica, sans-serif;
 	}
 	.intro-wrap, .background-wrap, .high-level, .new-tool, .research, .discovery, .testing  {
     padding: 0 7.625rem 3rem;
@@ -336,7 +337,7 @@
 	letter-spacing: .5px;
 	font-size: 2.5rem;
 	line-height: 3.125rem;
-	font-weight:700;
+	font-family: 'proximanova-bold', helvetica, sans-serif;
 }
 
 .new-tool p {
