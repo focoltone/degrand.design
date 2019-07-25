@@ -35,10 +35,10 @@ html {
 @font-face {
     font-family: 'proximanova-semibold-italic';
     src: url('../fonts/proximanova-semibolditalic-webfont.eot');
-    src: url('../fonts/proximanova-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/proximanova-semibolditalic-webfont.woff2') format('woff2'),
-         url('../fonts/proximanova-semibolditalic-webfont.woff') format('woff'),
-         url('../fonts/proximanova-semibolditalic-webfont.ttf') format('truetype'),
+    src: url('../fonts/proximanova-semibolditalic-webfont.eot?#iefix') format('embedded-opentype');
+         url('../fonts/proximanova-semibolditalic-webfont.woff2') format('woff2');
+         url('../fonts/proximanova-semibolditalic-webfont.woff') format('woff');
+         url('../fonts/proximanova-semibolditalic-webfont.ttf') format('truetype');
          url('../fonts/proximanova-semibolditalic-webfont.svg#proxima_novasemibold_italic') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -178,11 +178,11 @@ html {
 @font-face {
     font-family: 'Ropa Soft PTT';
     src: url('../fonts/RopaSoftPTT-ExtraBold.eot');
-    src: url('../fonts/RopaSoftPTT-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/RopaSoftPTT-ExtraBold.woff2') format('woff2'),
-        url('../fonts/RopaSoftPTT-ExtraBold.woff') format('woff'),
-        url('../fonts/RopaSoftPTT-ExtraBold.ttf') format('truetype'),
-        url('../fonts/RopaSoftPTT-ExtraBold.svg#RopaSoftPTT-ExtraBold') format('svg');
+    src: url('../fonts/RopaSoftPTT-ExtraBold.eot?#iefix') format('embedded-opentype');
+    src: url('../fonts/RopaSoftPTT-ExtraBold.woff2') format('woff2');
+    src: url('../fonts/RopaSoftPTT-ExtraBold.woff') format('woff');
+    src: url('../fonts/RopaSoftPTT-ExtraBold.ttf') format('truetype');
+    src: url('../fonts/RopaSoftPTT-ExtraBold.svg#RopaSoftPTT-ExtraBold') format('svg');
     font-weight: 800;
     font-style: normal;
 }
