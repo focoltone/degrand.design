@@ -35,10 +35,10 @@ html {
 @font-face {
     font-family: 'proximanova-semibold-italic';
     src: url('../fonts/proximanova-semibolditalic-webfont.eot');
-    src: url('../fonts/proximanova-semibolditalic-webfont.eot?#iefix') format('embedded-opentype');
-         url('../fonts/proximanova-semibolditalic-webfont.woff2') format('woff2');
-         url('../fonts/proximanova-semibolditalic-webfont.woff') format('woff');
-         url('../fonts/proximanova-semibolditalic-webfont.ttf') format('truetype');
+    src: url('../fonts/proximanova-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-semibolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/proximanova-semibolditalic-webfont.woff') format('woff'),
+         url('../fonts/proximanova-semibolditalic-webfont.ttf') format('truetype'),
          url('../fonts/proximanova-semibolditalic-webfont.svg#proxima_novasemibold_italic') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -176,13 +176,13 @@ html {
 }
 
 @font-face {
-    font-family: 'Ropa Soft PTT';
+    font-family: 'RopaSoftPTT-ExtraBold';
     src: url('../fonts/RopaSoftPTT-ExtraBold.eot');
-    src: url('../fonts/RopaSoftPTT-ExtraBold.eot?#iefix') format('embedded-opentype');
-    src: url('../fonts/RopaSoftPTT-ExtraBold.woff2') format('woff2');
-    src: url('../fonts/RopaSoftPTT-ExtraBold.woff') format('woff');
-    src: url('../fonts/RopaSoftPTT-ExtraBold.ttf') format('truetype');
-    src: url('../fonts/RopaSoftPTT-ExtraBold.svg#RopaSoftPTT-ExtraBold') format('svg');
+    src: url('../fonts/RopaSoftPTT-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RopaSoftPTT-ExtraBold.woff2') format('woff2'),
+        url('../fonts/RopaSoftPTT-ExtraBold.woff') format('woff'),
+        url('../fonts/RopaSoftPTT-ExtraBold.ttf') format('truetype'),
+        url('../fonts/RopaSoftPTT-ExtraBold.svg#RopaSoftPTT-ExtraBold') format('svg');
     font-weight: 800;
     font-style: normal;
 }
@@ -389,7 +389,7 @@ header img {
     font-family: "proximanova-light", helvetica, sans-serif;
 }
 .intro button, .more button, .about-more button {
-    font-family: 'Ropa Soft PTT', helvetica, sans-serif;
+    font-family: 'RopaSoftPTT-ExtraBold', helvetica, sans-serif;
     font-size: 0.875rem;
     background: #5042AD;
     box-shadow: 0px 1px 0px #B7C3C7;
@@ -572,7 +572,7 @@ header img {
 }
 
 .cards li  {
-    font-family: 'Ropa Soft PTT', helvetica, sans-serif;
+    font-family: 'RopaSoftPTT-ExtraBold', helvetica, sans-serif;
     font-size: 1rem;
     color: #CFC8F8;
     letter-spacing: 1px;
@@ -841,7 +841,7 @@ header img {
     .about-more a {
     color: white;
     font-size: 1rem;
-    font-family: "Ropa Soft PTT", helvetica, sans-serif;
+    font-family: 'RopaSoftPTT-ExtraBold', helvetica, sans-serif;
     margin: 0.75rem 0;
     letter-spacing: 1px;
     padding-right: 2.25rem;
@@ -1133,7 +1133,7 @@ textarea {
 [class^="btn--"] {
   margin-bottom: 1.42857em; 
   font-size:0.875rem;
-  font-family: 'Ropa Soft PTT', helvetica, sans-serif;
+  font-family: 'RopaSoftPTT-ExtraBold', helvetica, sans-serif;
   letter-spacing: 1px;
   width: 8rem;
   border-radius: 5px;
