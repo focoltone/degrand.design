@@ -885,8 +885,7 @@ header img {
 .blurb-wrap {
      display: flex;
     flex-wrap:wrap;
-    justify-content: space-evenly;
-    padding:4rem 0;
+    padding: 4rem 3.125rem;
 }
 @media (min-width: 760px)  {
     .blurb {
