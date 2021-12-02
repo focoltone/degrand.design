@@ -5,8 +5,8 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
-		<link rel="stylesheet" type="text/css" href="css/styles.css" type="text/css">
 		<link rel="stylesheet" type="text/css" href="css/casestudies.css" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css" type="text/css">
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -27,80 +27,77 @@
 
 	<body>
 		<header id="header" class="header header--fixed hide-from-print slide slide--reset headroom--top" role="banner">
-			<div class="header-inner-wrap">
-				<a href="index.html"><img src="images/dd-logo.svg" height="30px" width="31px"></a>
-			</div>
-			<nav id="menu"class="menu menu--alonso">
-				<ul class="menu__list">
-					<li><a href="index.html" >Home</a></li>
-					<li class="current"><a href="digitalmarketing.html" >Case Studies</a></li>
-					<!-- <li class="menu__item"><a href="#" class="menu__link">About</a></li>
-					<li class="menu__item"><a href="#" class="menu__link">UX Process</a></li> -->
-					<li class="menu__line"></li>
-				</ul>
-			</nav>
-			
-		</header>
-			
-		<div class="container">
-			
-
-			<div class=projects>
-				<div class="projects-wrap">
-					<div class="project-title-wrap">
-						<h2>All Case Studies</h2>
-						
-						
-					</div>
-					
-					<div class="cards">
-						
-						<a class="web-app" href="digitalmarketing.html">
-							<div class="card-wrapper">
-								<h1>Digital Marketing Tool</h1>
-								<h2>WEB APP</h2>
-								<p>A custom platform that delivers automation and scale to an ambitious marketing team.</p>
-							</div>
-							<li>VIEW CASE STUDY</li>
-						</a>
-						<a class="mobile-app" href="arts.html">
-							<div class="card-warpper">
-								<h1>Arts Education Program</h1>
-								<h2>MOBILE APP</h2>
-								<p>Young adults use their smart phones to engage with the performing arts.</p>
-								<!-- <p>Coming Soon—</p> -->
-							</div>
-							<li>VIEW CASE STUDY</li>
-						</a>	
-
-						<a class="reporting-app next-up">
-							<div class="card-wrapper">
-								<h1>Custom Dashboard</h1>
-								<h2>WEB APP</h2>
-								<p>Digital marketing automotive company builds custom reporting tool for their products.</p>
-								<p>Coming Soon—</p>
-							</div>
-						</a>
-
-						<a class="marketing-app">
-							<div class="card-warpper">
-								<h1>Custom Marketing Tool</h1>
-								<h2>WEB APP</h2>
-								<p>Custom marketing software for campaign planning.</p>
-								<p>Coming Soon—</p>
-							</div>
-						</a>
-
-					</div>
-
-					
+			<div>
+				<div>
+					<img src="images/dd-logo.svg" height="30px" width="31px">
+					<p>Colton DeGrand</p>
 				</div>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a id="current" href="projects.html" >Projects</a></li>
+						<li><a href="about.html" >About</a></li>
+					</ul>
+				</nav>
 			</div>
+		</header>
 
+		<main>
+			<!-- cards -->
+			<div id="cards">
+				<a href="digitalmarketing.html">
+					<div>
+						<img src="images/amazon-sm.png" alt="Text speach bubbles">
+						<img src="images/echo-showzen.png" alt="Text speach bubbles">
+						<div>
+							<!-- <h2>Voice Assistant</h2> -->
+							<h1>Amazon Echo Show Skill</h1>
+							<p>Older adults and thier familys share grocery lists, appointments, and photos.</p>
+						</div>
+						<li>View Project</li>
+					</div>
+				</a>
+				<a href="arts.html">
+					<div>
+						<img src="images/strategy-sm.png" alt="Multi-color protine molecules">
+						<img src="images/common-spirit.png" alt="Multi-color protine molecules">
+						<div> 
+							<!-- <h2>UX Strategy</h2> -->
+							<h1>Healthcare Experience</h1>
+							<p>A strategic engagement exploring new services for patients and doctors.</p>
+						</div>
+						<li>View Project</li>
+					</div>
+				</a>
+				<a href="digitalmarketing.html">
+					<div>
+						<img src="images/strategy-sm.png" alt="Multi-color protine molecules">
+						<img src="images/marketing.png" alt="Multi-color protine molecules">
+						<div> 
+							<!-- <h2>UX Strategy</h2> -->
+							<h1>Marketing Web Application</h1>
+							<p>Custom digital marketing platform delivering automation and speed at scale.</p>
+						</div>
+						<li>View Project</li>
+					</div>
+				</a>
+				<a href="arts.html">
+					<div>
+						<img src="images/strategy-sm.png" alt="Multi-color protine molecules">
+						<img src="images/education.png" alt="Multi-color protine molecules">
+						<div> 
+							<!-- <h2>UX Strategy</h2> -->
+							<h1>Arts Education Mobile App</h1>
+							<p>Young adults use their smart phones to connect with the performing arts.</p>
+						</div>
+						<li>View Project</li>
+					</div>
+				</a>	
+			</div>
 
 			<footer>
-				<div class="footer-wrap">
-					<div class="ux-tools">
+				<div>
+					<div>
 						<h2>UX & UI TOOLS</h2>
 						<ul>
 							<li>Sketching</li>
@@ -115,7 +112,7 @@
 							<li>Sketch</li>
 						</ul>
 					</div>
-					<div class="handoff-webtech">
+					<div>
 						<h2>HANDOFF TOOLS</h2>
 						<ul>
 							<li>GoAbstract</li>
@@ -128,7 +125,7 @@
 							<li>Sass</li>
 						</ul>
 					</div>
-					<div class="resources">
+					<div>
 						<h2>RESOURCES</h2>
 						<ul>
 							<li>ReallyGoodUX</li>
@@ -142,24 +139,17 @@
 					</div>
 
 					<div id="form">
-						<h1>Questions?</h1>
-						<span>Or just a nice chat?</span>
 						<div>
 							<h2>Say Hello!</h2>
-							<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ColtonDeGrand"><img src="images/twitter.svg" width="23px" height="18px" alt=""></a>
-							<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/colton-degrand/"><img src="images/linkedin.svg" width="20px" height="20px" alt=""></a>
+							<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ColtonDeGrand"><img src="images/twitter.png" width="23px" height="18px" alt=""></a>
+							<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/colton-degrand/"><img src="images/linked.png" width="20px" height="20px" alt=""></a>
 						</div>
-						<div class="contact-wrap">
-							<div class="contact">
-								<a href="mailto:cpdegrand@gmail.com">cpdegrand@gmail.com</a>
-							</div>
-							<div class="phone">
-								<a href="tel:3125907285">(312) 590-7285</a>
-							</div>
+						<div>
+							<a href="mailto:cpdegrand@gmail.com">cpdegrand@gmail.com</a>
+							<a href="tel:3125907285">(312) 590-7285</a>
 						</div>
 
 						<div class="grid">
-					  
 						    <form id="contact-form">
 						      <label for="inputName">Name</label>
 						      <input class="form__input" id="inputName" type="text" placeholder="" name="name"/>
@@ -175,7 +165,7 @@
 				</div>
 			</footer>
 
-			
+		</main>	
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
