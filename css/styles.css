@@ -555,6 +555,17 @@ textarea {
 /*:::::::::::::::::::::::::::::::::::::::: Above 660px ::::::::::::::::::::::::::::::::::::::::::*/
 @media (min-width: 660px) {
     /*HEADER*/
+    header > div > div > div {
+        font-family: 'neris-semibold', helvetica, sans-serif;
+        font-size: 1.25rem;
+        display: flex;
+        margin-left: 2rem;
+        height: 100%;
+        align-items: center;
+    }
+    header a + div > div {
+        margin-left: 1rem;
+    }
     header p {
         font-size: 1.25rem;
         margin-left: 1rem;
