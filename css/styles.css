@@ -557,7 +557,7 @@ textarea {
     /*HEADER*/
     header > div > div > div {
         font-family: 'neris-semibold', helvetica, sans-serif;
-        font-size: 1.25rem;
+        font-size: .85rem;
         display: flex;
         margin-left: 2rem;
         height: 100%;
@@ -600,6 +600,7 @@ textarea {
         margin: 7.637rem 2.75rem 0px;
     }
     main > div:nth-child(1) h1 {
+        max-width: 21rem;
         font-size: 3.9375rem;
         line-height: 4.25rem;
     }
