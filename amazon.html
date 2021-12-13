@@ -69,7 +69,7 @@
 				<img src="images/amazon-hero.png" alt="Lowfi vector illustraion of mobile phones with young adults interacting with techology and each other">
 			</div>
 			<!-- copy -->
-				<article>
+							<article>
 				<section>
 					<div>
 						<h1>Intro</h1>
@@ -227,8 +227,8 @@
 					<div  id="calendar">
 				<h1>Daily Summary & Tutorial Features</h1>
 					<h4>January 15th - February 24th, 2020</h4>
-						<!-- <div>
-							<div>
+						<div>
+							<!-- <div>
 								<h5>11</h5>
 								<p></p>
 							</div>
@@ -269,8 +269,8 @@
 							<div>
 								<h5>23</h5>
 								<p></p>
-							</div>
-						</div> -->
+							</div> -->
+						</div>
 					</div>
 					<div>
 						<h2>Daily Summary</h2>
@@ -292,12 +292,92 @@
 						<p>I wanted to add some delight for the team and client, so I created a high fidelity mockup of Alexa reciting the daily summary interaction. I got set up in the Alexa developer console and started crafting the dialogue using Alexa's speech synthesis markup language. We had to jump through some hoops to bring the dialogue into the next design review, but the team practiced with me and we pulled it off.</p>
 						<p>Hearing Alexa run through an example was exciting for the client and for us; their voices sounded truly delighted.
 <p>“It gave us real confidence about the idea.”</p>
-						<img src="images/amazon-quote1" alt="">
+						<img src="images/amazon-quote1.png" alt="">
 					</div>
 				</section>
+
+
+
+				<section>
+					<div id="calendar">
+						<h1>Tutorial</h1>
+						<h4>Feb 25th - April 15th, 2020</h4>
+						<div>
+							<!-- <div>
+								<h5>11</h5>
+								<p></p>
+							</div>
+							<div>
+								<h5>12</h5>
+								<p></p>
+							</div>
+							<div>
+								<h5>13</h5>
+								<p></p>
+							</div>
+							<div>
+								<h5>16</h5>
+								<p></p>
+							</div>
+							<div>
+								<h5>17</h5>
+								<p></p>
+							</div>
+						</div>
+						<div>
+							<div>
+								<h5>18</h5>
+								<p></p>
+							</div>
+							<div>
+								<h5>19</h5>
+								<p></p>
+							</div>
+							<div>
+								<h5>20</h5>
+								<p></p>
+							</div>
+							<div>
+								<h5>21</h5>
+								<p></p>
+							</div>
+							<div>
+								<h5>23</h5>
+								<p></p>
+							</div> -->
+						</div>
+					</div>
+						<h2>Tutorial</h2>
+						<p>We know that older adults in the 75 to 85 age range can have diminished short term memory and may have limited to no exposure to voice assistance technology.</p>
+<p>Our client wanted to include a tutorial feature to onboard users when opening the skill for the first time. Our focus group of caregivers supported the idea and were interested to see what we came up with.</p>
+
+<p>I started by selecting our 6 most essential features and giving each its own screen with text and graphics. I felt like there was an opportunity to make the experience more interactive, so I proposed the idea of practicing with Alexa during the tutorial. In addition to showing the graphic and having Alexa read the on-screen text, Alexa will also prompt the user to try saying a command. The tutorial covers each main feature of the skill, so each step of the tutorial includes practicing that features specific commands.</p>
+
+<img src=”images/amazon-tutorial.png/>
+
+
+
+<h2>Technical Challenges</h2> 
+<p>We pushed the limits of the Echo Show with the tutorial feature. We needed to be cognizant of our ~30 interaction limit for a single screen. We designed each of the 6 steps in the tutorial so that they could be skipped. Alexa will ask the user if they want to try practicing, allowing them to spend more time on a single step or continue if they do not feel like practicing.
+<p>The practice utterances were also tricky. We had to disable the entire library of utterances to make it work. Without turning them off, the skill will accept the practice commands, causing those features to open during the tutorial. We also wanted users to be able to return to the tutorial.</p>
+
+
+“It will be great for them to go back and learn again because they forget”.</p>
+
+<img src=”images/amazon-quote1.png/>
+
+<h2> Adding Delight</h2>
+<p>Similar to creating a demo of the interaction with the presentation language for the start my day feature, I wanted to add some personality to Alexa’s voice specifically for the practice portion of the tutorial. Alexa congratulates the user after they practice speaking the commands, but the readout of Alexa’s voice is fairly uninspiring. The APL allows developers to specify tone and inflection. I created the readout in the markup language and specified how Alexa should sound when congratulating the user for practicing. Now Alexa sounded genuinely excited when rewarding the user for practicing, sparking some life into the dialogue, ensuring that extra confidence boost reads naturally to new users of the skill.		
+</div>
+
+
+				</section>
+			</article>
 			
 
-</article>
+ 
+
+
 
 			
 
