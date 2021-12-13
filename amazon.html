@@ -95,7 +95,7 @@
 				<section>
 					<div id="calendar">
 						<h1>Project History</h1>
-						<img src="images/amazon-timeline.png" alt="">
+					<img src="images/amazon-timeline.png" alt="">
 					</div>
 				</section>
 
@@ -104,7 +104,7 @@
 					</div>
 					<div>
 						<h1>Product Features & Terms</h1>
-						<img src="images/amazon-users.png" alt="">
+					<img src="images/amazon-users.png" alt="">
 					</div>
 					<div>
 						<h2>Refining high-level concepts</h2>
@@ -149,9 +149,9 @@
 						<h2>One screen = One VUI interaction</h2>
 						<p>Common UX considerations, like scroll bars or showing peaks of additional content proved to be difficult.</p>
 					</div>
-					<div>
-						<h2>Consistency of Design Styles across Platforms</h2>
-						<p>Common mobile & web design patterns were not possible with the Echo Show. We could not specify typefaces or font weights for the Echo Show skill, so two platforms exist with different text styles. Mobile & Echo Show Teams divided by location</p>
+			<div>
+				<h2>Consistency of Design Styles across Platforms</h2>
+						<p>Common mobile & web design patterns were not possible with the Echo Show. We could not specify typefaces or font weights for the Echo Show skill, so the mobile app and skill experiences exist with different text styles.</p>
 					</div>
 				</section>
 
@@ -168,7 +168,7 @@
 							<div>
 								<h5>12</h5>
 								<p>Design team staffing and reorganization</p>
-								<p>New designers familiarize with project  and allocate sprint work</p>
+								<p>New designers familiarize with project and allocate sprint work</p>
 							</div>
 							<div>
 								<h5>13</h5>
@@ -203,10 +203,10 @@
 								<p>Wireframe review of design work for next development sprint</p>
 								<p>Get access to developer APL dashboard</p>
 							</div>
-							<div>
-								<h5>23</h5>
-								<p>Create mock VUI interactions using APL</p> 
-								<p>Read articles on VUI design by Apple and Google’s voice assistants</p>
+				<div>
+					<h5>23</h5>
+					<p>Create mock VUI interactions using APL</p> 
+								<p>Read documentation on VUI design by Apple and Google’s voice assistants</p>
 							</div>
 						</div>
 					</div>
@@ -216,14 +216,17 @@
 					</div>
 					<div>
 						<h2>User Feedback</h2>
-						<p>We worked directly with the client’s user researcher who asked questions the designers wanted to address with the focus group. The focus group was a diverse representation of family’s caring for their older independent parents.</p>
+						<p>We worked directly with the client’s user researcher who asked questions the designers wanted to address with the focus group. The focus group was a diverse representation of family’s caring for their older independent parents(caregivers).</p>
 						<p>We attended sessions remotely and documented the responses. Hearing feedback from the participants of the focus group helped us empathize with them, and heavily informed the direction of the product’s features.</p>
-					</div>
-				</section>
+			</div>
+		</section>
+
+
+
 				<section>
 					<div  id="calendar">
-						<h1>Designing a Daily Routine</h1>
-						<h4>December 15th - December 30th 2019</h4>
+				<h1>Daily Summary & Tutorial Features</h1>
+					<h4>January 15th - February 24th, 2020</h4>
 						<!-- <div>
 							<div>
 								<h5>11</h5>
@@ -271,87 +274,27 @@
 					</div>
 					<div>
 						<h2>Daily Summary</h2>
-						<p>I designed a daily summary experience for the Echo Show we termed “Start My Day”. Building in routine interactions helps older adults remember what they can do and surfaces key features to engage with the product. Check-ins and notifications are examples of routine interaction features that prompt the older adult to communicate with their family.</p>
-						<p>I carefully outlined out the experience, making updates after each meeting with the team to incorporate feedback. Our senior product manager and I worked with the client to curate the type of information for the feature. We landed on 4 different types of information to cover during the interaction. During the ~30 second readout, Alexa greets the older adult by name, states the date, the weather, the first event of their day, the items they are responsible for in their lists, and a fun fact. Alexa asks the older adult if they want to check-in with their family at the end of the readout.</p>
+						<p>We designed a daily summary experience for the Echo Show we termed “Start My Day”. Building in routine interactions helps older adults remember what they can do and surfaces key features to engage with the product. Check-ins and notifications are examples of routine interaction features that prompt the older adult to communicate with their family.</p>
+						<p>I outlined the experience, making updates after each meeting with the team to incorporate feedback. Our senior product manager and I worked with the client to curate the type of information for the feature. We landed on 4 different types of information to cover during the interaction. During the ~30 second readout, Alexa greets the older adult by name, states the date, the weather, the first event of their day, the items they are responsible for in their lists, and a fun fact. Alexa asks the older adult if they want to check-in with their family at the end of the readout.</p>
+<p>“I don’t think my parent would complain if they heard the weather more than once, their memory isn’t always the best, so it doesn’t hurt to include it.” —Caregiver</p>
 					</div>
 					<div>
 						<img src="images/amazon-summary.png" alt="">
 						<h2>Working Through Problems</h2>
-						<p>We wanted to incorporate the weather in the daily summary however, we were unable to integrate with Darksky’s weather API.  The design team and the focus group felt strongly that weather updates needed to be included in the interaction, so we made a case to our product team to push for a solution. We knew the zip code of where the device was located, so our dev team opted to pull weather data from an open source API instead. </p>
-						<p>The daily summary included: </p>
+						<p>We wanted to incorporate the weather in the daily summary however, we were unable to integrate with Darksky’s weather API. We knew that older adults already recieved weather updates from multiple sources, but the focus group felt strongly that weather updates needed to be included in the interaction, explaining that resurfacing information was important. We made a case to our product team to push for a solution.  We knew the zip code of where the device was located, so our dev team opted to pull weather data from an open source API instead. </p>
+						<p>Refining The Interaction</p>
 						<p>A general rule was to keep UI and VUI interactions under 30 seconds. The focus group helped the team determine the extent of older adult’s ability to retain information. The maximum length advised was no more than 30s, and between 20 and 25 was ideal.</p>
-						<p>I mapped out every scenario of the experience to help us decide what information to pair down. Although the fun fact was received well by the client and pilot testing group, it was the least essential information in the readout.  we decided  the “fun facts” copyrighted fun-facts and. </p>
-						<p>What if the older adult did not take  already taken, blocking off time of day (morning, afternoon, evening), </p>
+						<p>I mapped out many scenarios of the experience to help us decide what information to pair down. Although the fun fact was received well by the client and focus group, it was the least essential information in the readout. We decided to compromise and rotate a fun fact into the readout every few days and adjust their frequency later based on feedback after the feature’s release. </p>
+						<p>The last issue we needed to account for was the time of day the older adult opened the skill. What if the older adult did not open the skill at the same time everyday. We created conditional logic to adjust the content in the readout depending on when the skill was opened. The time of day in the greeting need to be morning, afternoon, evening, and any events that had already occurred earlier in the day would need to be excluded.</p>
 					</div>
 					<div>
 						<h2>Flex Development Chops</h2>
-						<p>I thought it might be nice to let the client hear what Alexa sounded like during a design review, so I got set up in the Alexa developer console and started crafting the dialogue using Alexa's speech synthesis markup language. We had to jump through some hoops to bring the dialogue into the design review, but State Farm was excited to hear what the interaction was like earlier in the process; it gave them some confidence about the concept.</p>
-						<p>The client’s response to seeing it demoed was exciting for them and for us; they were impressed.</p>
+						<p>I wanted to add some delight for the team and client, so I created a high fidelity mockup of Alexa reciting the daily summary interaction. I got set up in the Alexa developer console and started crafting the dialogue using Alexa's speech synthesis markup language. We had to jump through some hoops to bring the dialogue into the next design review, but the team practiced with me and we pulled it off.</p>
+						<p>Hearing Alexa run through an example was exciting for the client and for us; their voices sounded truly delighted.
+<p>“It gave us real confidence about the idea.”</p>
 						<img src="images/amazon-quote1" alt="">
 					</div>
 				</section>
-				<section>
-					<div id="calendar">
-						<h1>Designing the Tutorial</h1>
-						<h4>January 5th - January 30th 2020</h4>
-						<!-- <div>
-							<div>
-								<h5>11</h5>
-								<p></p>
-							</div>
-							<div>
-								<h5>12</h5>
-								<p></p>
-							</div>
-							<div>
-								<h5>13</h5>
-								<p></p>
-							</div>
-							<div>
-								<h5>16</h5>
-								<p></p>
-							</div>
-							<div>
-								<h5>17</h5>
-								<p></p>
-							</div>
-						</div>
-						<div>
-							<div>
-								<h5>18</h5>
-								<p></p>
-							</div>
-							<div>
-								<h5>19</h5>
-								<p></p>
-							</div>
-							<div>
-								<h5>20</h5>
-								<p></p>
-							</div>
-							<div>
-								<h5>21</h5>
-								<p></p>
-							</div>
-							<div>
-								<h5>23</h5>
-								<p></p>
-							</div>
-						</div> -->
-					</div>
-						<h2>New Design Team Members</h2>
-						<p>I designed the tutorial for the Echo Show skill. feature I took the lead on teaching older adults how to get up and running with the skill using a tutorial-like interaction model. I thought this was a good opportunity to embrace the lively art of conversation and push the limits of the Alexa voice interactions we had already defined. </p>
-						<p>It was challenging for the team to pin down, we carefully fleshed out the experience. This feature is the first interaction an older adult will have with the product when they use the skill for the first time.  worked with the client to finalize the copy in all 6 steps.</p>
-						<p>It is important to consider user attention spans & cognitive load when writing for VUI. If too much information is given to a user at once, it is unlikely users (of any age) will retain it all. • Recommended VUI length should not exceed 20 – 25 seconds. Start my Day exemplifies the maximum length for a single VUI instance. In testing users expressed the 20- 25 sec range was a good length but that any longer may be overwhelming. • Consider splitting up long interactions & dialogsWhen capturing details for an event, Alexa confirms key details with the user before prompting them with more questions. This helps reduce the amount of questions a user is asked at a single time. • Ask users whether they want to hear more. When providing information about the Center’s list, Alexa reads off the unchecked items on a list then asks the Center if they would like to hear the items that have been checked off. This gives control over to the users and allows them to move on if desired.</p>
-						<img src="images/amazon-tutorial.png" alt="">
-					</div>
-					<!-- <div>
-						<h2>Working Through Problems</h2>
-						<p>can’t go back (continuous flow) (stateless VUI), initiating other features unwanted, </p>
-						<p>We attended sessions remotely and documented the responses. Hearing feedback from the participants of the focus group helped us empathize with them, and heavily informed the direction of the product’s features.</p>
-					</div> -->
-				</section>
-			</article>
 			
 
 
