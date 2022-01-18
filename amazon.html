@@ -95,7 +95,7 @@
 				<section>
 					<div id="calendar">
 						<h1>Project History</h1>
-					<img src="images/amazon-timeline.png" alt="">
+					<img class="enhance" src="images/amazon-timeline.png" alt="">
 					</div>
 				</section>
 
@@ -279,7 +279,7 @@
 <p>“I don’t think my parent would complain if they heard the weather more than once, their memory isn’t always the best, so it doesn’t hurt to include it.” —Caregiver</p>
 					</div>
 					<div>
-						<img src="images/amazon-summary.png" alt="">
+						<img class="enahnce" src="images/amazon-summary.png" alt="">
 						<h2>Working Through Problems</h2>
 						<p>We wanted to incorporate the weather in the daily summary however, we were unable to integrate with Darksky’s weather API. We knew that older adults already recieved weather updates from multiple sources, but the focus group felt strongly that weather updates needed to be included in the interaction, explaining that resurfacing information was important. We made a case to our product team to push for a solution.  We knew the zip code of where the device was located, so our dev team opted to pull weather data from an open source API instead. </p>
 						<p>Refining The Interaction</p>
@@ -353,7 +353,7 @@
 
 <p>I started by selecting our 6 most essential features and gave each its own screen with text and graphics. I felt like there was an opportunity to make the experience more interactive, so I proposed the idea of practicing with Alexa during the tutorial. In addition to showing the graphic and having Alexa read the on-screen text, Alexa will also prompt the user to try saying a command. The tutorial covers each main feature of the skill, so each step of the tutorial includes practicing that features specific commands.</p>
 
-<img src="images/amazon-tutorial.png" alt="">
+<img class="enhance" src="images/amazon-tutorial.png" alt="">
 
 
 
@@ -361,10 +361,6 @@
 <p>We pushed the limits of the Echo Show with the tutorial feature. We needed to be cognizant of our ~30 interaction limit for a single screen. We designed each of the 6 steps in the tutorial so that they could be skipped. Alexa will ask the user if they want to try practicing, allowing them to spend more time on a single step or continue if they do not feel like practicing.
 <p>The practice utterances were also tricky. We had to disable the entire library of utterances to make it work. Without turning them off, the skill will accept the practice commands, causing those features to open during the tutorial. We also wanted users to be able to return to the tutorial.</p>
 
-
-“It will be great for them to go back and learn again because they forget”.</p>
-
-<img src="images/amazon-quote1.png" alt="">
 
 <h2> Adding Delight</h2>
 <p>Similar to creating a demo of the interaction with the presentation language for the start my day feature, I wanted to add some personality to Alexa’s voice specifically for the practice portion of the tutorial. Alexa congratulates the user after they practice speaking the commands, but the readout of Alexa’s voice is fairly uninspiring. The APL allows developers to specify tone and inflection. I created the readout in the markup language and specified how Alexa should sound when congratulating the user for practicing. Now Alexa sounded genuinely excited when rewarding the user for practicing, sparking some life into the dialogue, ensuring that extra confidence boost reads naturally to new users of the skill.		
