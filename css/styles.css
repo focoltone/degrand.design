@@ -159,15 +159,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-img.enhance {
-    transform: scale(1);
-    transition: all .30s;
-    margin: 4rem 0;
-}
-img.enhance:hover {
-    transform: scale(2.5);
-    box-shadow: 0px 25px 47px #000000;
-}
 
 h3 {
     font-size: 2rem;
