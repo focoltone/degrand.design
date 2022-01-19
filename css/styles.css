@@ -164,12 +164,22 @@ h3 {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
+
 main {
     margin-top: 3rem;
     color: #FCFBF9;
     font-family: 'neris-black', helvetica, sans-serif;
-    max-width: 1440px;
+}
+
+section {
+    max-width: 50.75rem;
     margin: 0 auto;
+}
+
+section + div {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 4rem 4rem;
 }
 
 /*=========================================================== HEADER ===========================================================
@@ -610,7 +620,7 @@ textarea {
     }
     main > div:nth-of-type(1) {
         max-width: 86.75rem;
-        margin: 7.637rem 2.75rem 0px;
+        margin: 7.637rem auto;
     }
     main > div:nth-child(1) h1 {
         font-size: 3.9375rem;
