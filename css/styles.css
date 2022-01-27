@@ -169,6 +169,9 @@ main {
     margin-top: 3rem;
     color: #FCFBF9;
     font-family: 'neris-black', helvetica, sans-serif;
+     margin: 0 auto ;
+    max-width: 94rem;
+
 }
 
 section {
@@ -240,6 +243,7 @@ nav > ul > li a {
     border-bottom: 2px solid #CDF25F;
     color: #CDF25F;
 }
+
 
 /*============= HERO ============================================== HERO ===========================================================
 =============== HERO ============================================== HERO ===========================================================*/
