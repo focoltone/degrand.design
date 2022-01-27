@@ -160,6 +160,15 @@ img {
     height: auto;
 }
 
+img.enhance {
+    transform: scale(1);
+    transition: all .30s;
+    margin: 4rem 0;
+}
+img.enhance:hover {
+    transform: scale(1.8);
+}
+
 h3 {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -173,7 +182,7 @@ main {
     max-width: 94rem;
 
 }
-
+    
 section {
     max-width: 50.75rem;
     margin: 0 auto;
