@@ -27,7 +27,7 @@ main > div a {
     border-radius: 10px;
     margin-bottom: 1rem;
 }
-main > div a > div img:nth-child(2) {
+main > div a > div img:nth-child(1) {
     display: none;
 }
 main > div a > div img:nth-child(1) {
@@ -92,7 +92,7 @@ main > div li:after {
     main > div a > div img:nth-child(1) {
         display: none;
     }
-    main > div a > div img:nth-child(2) {
+    main > div a > div img:nth-child(1) {
         max-width: 100%;
         display: block;
         margin-top: -2.45rem;
@@ -151,6 +151,6 @@ main > div li:after {
     }
 #cards a {
     max-width: 100%;
-    width: 100%;
+
 }
 }
