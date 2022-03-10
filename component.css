@@ -1,0 +1,41 @@
+
+/* Common styles for all menus */
+	.menu--alonso .menu__item:nth-child(1).menu__item--current ~ .menu__line {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+	.menu--alonso .menu__item:nth-child(2).menu__item--current ~ .menu__line {
+		-webkit-transform: translate3d(100%, 0, 0);
+		transform: translate3d(100%, 0, 0);
+	}
+	.menu--alonso .menu__item:nth-child(3).menu__item--current ~ .menu__line {
+		-webkit-transform: translate3d(200%, 0, 0);
+		transform: translate3d(200%, 0, 0);
+	}
+	.menu--alonso .menu__item:nth-child(4).menu__item--current ~ .menu__line {
+		-webkit-transform: translate3d(300%, 0, 0);
+		transform: translate3d(300%, 0, 0);
+	}
+	.menu--alonso .menu__item:nth-child(5).menu__item--current ~ .menu__line {
+		-webkit-transform: translate3d(400%, 0, 0);
+		transform: translate3d(400%, 0, 0);
+	}
+	.section {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		flex-direction: column;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-align-items: center;
+		align-items: center;
+	}
+	.section:nth-of-type(odd):not(:first-child) {
+		color: #fff;
+		background: #2a282b;
+	}
+	.section--menu {
+		position: relative;
+	}
+
+

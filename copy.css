@@ -1,0 +1,94 @@
+
+
+/*HEADER*/
+header a {
+	display: flex;
+	height: 100%;
+    align-items: center;
+}
+header span {
+        color: #FCFBF9;
+        padding-left: 1rem;
+    }
+header > div > div > div > div:nth-child(1) a {
+	 color: #CDF25F;
+}
+/*HERO*/
+#catagories {
+	margin-top: 2rem;
+}
+#catagories p {
+	display:block;
+	margin-top: 1rem;
+}
+#hero > div {
+	top: 20%;
+    width: 25rem;
+    left: 10%;
+}
+article {
+	margin: 6rem auto 16rem;
+}
+section > div {
+	margin-bottom: 1.875rem;
+}
+section {
+	margin-bottom: 2.5rem;
+}
+section h1, h4, h5 {
+	font-family: 'neris-black', helvetica, sans-serif;
+}
+section h2 {
+	font-family: 'neris-semibold', helvetica, sans-serif;
+}
+section h1 {
+	font-size: 2.8125rem;
+	margin-bottom: 1.875rem;
+}
+section h2 {
+	font-size: 1.675rem;
+	margin-bottom: .75rem;
+}
+section h4 {
+	font-size: 1.25rem;
+	margin-bottom: 10px;
+}
+section h5 {
+	font-size: 1rem;
+	margin-bottom: 10px;
+}
+section p {
+	font-family: "proximanova-regular", helvetica, sans-serif;
+	font-size: 1.5rem;
+	line-height: 2.25rem;
+	margin-bottom: 1rem;
+}
+section img {
+	margin: 15px 0;
+}
+section span {
+	color: #CDF25F;
+	font-family: 'neris-black', helvetica, sans-serif;
+}
+#calendar {
+
+}
+#calendar > div {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-bottom: 1rem;
+}
+#calendar > div > div {
+	width: 20%;
+}
+#calendar p {
+	font-family: 'neris-black', helvetica, sans-serif;
+	font-size: 13px;
+	margin: .625rem 13px 0 0;
+	line-height: 1.3125rem;
+}
+#calendar h5 {
+	margin-bottom: 0;
+	color: #CDF25F;
+}
