@@ -155,6 +155,14 @@ a.external {
     color: #CDF25F;
     text-decoration: underline;
 }
+a.external-button {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color:  #27241D;
+    background-color: #CDF25F;
+    border-radius: 50px;
+    padding: .5rem 1rem;
+}
 img {
     max-width: 100%;
     height: auto;
@@ -185,7 +193,7 @@ main {
     
 section {
     max-width: 50.75rem;
-    margin: 0 auto;
+    margin: 6rem auto;
 }
 
 section + div {
