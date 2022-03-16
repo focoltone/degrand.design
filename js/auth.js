@@ -26,20 +26,20 @@ function getCookie(user) {
 }
 
 function checkCookie() {
-  var user = getCookie("user");  
+  var user = getCookie("user");
   if(!user) {
     window.location = '/login.html';
   } 
 }
 
 function login () {
-  //take input from user
-  var user = prompt("Please enter your password:", "");
-  //set cookie
-  if (user != "" && user != null && users.includes(Sha1.hash(user))) {
-    setCookie("user", Sha1.hash(user), expirationDays);
-    window.location = '/';
-  } else {
+  while(!getCookie("user")) {
     var user = prompt("Please enter your password:", "");
+    //set cookie
+    if (user != "" && user != null && users.includes(Sha1.hash(user))) {
+      setCookie("user", Sha1.hash(user), expirationDays);
+      
+    }
   }
+  window.location = '/';
 }
