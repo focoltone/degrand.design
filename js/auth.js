@@ -4,14 +4,14 @@ var users = [
   '576e1f9012b3a89d027020e77e3055f84c4a9f85',
 ];
 
-function setCookie(user, value, days) {
+var setCookie = function(user, value, days) {
   const date = new Date();
   date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
   var expires = "expires="+date.toUTCString();
   document.cookie = user + "=" + value + ";" + expires + ";path=/";
 }
 
-function getCookie(user) {
+var getCookie = function(user) {
   let name = user + "=";
   let spli = document.cookie.split(';');
   for(var j = 0; j < spli.length; j++) {
@@ -25,14 +25,14 @@ function getCookie(user) {
   }  
 }
 
-function checkCookie() {
+var checkCookie = function() {
   var user = getCookie("user");  
   if(!user) {
     window.location = './login.html';
   } 
 }
 
-function login() {
+var login = function() {
   //take input from user
   var user = prompt("Please enter your password:", "");
   //set cookie
