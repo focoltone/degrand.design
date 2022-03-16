@@ -38,7 +38,6 @@ function login () {
     //set cookie
     if (user != "" && user != null && users.includes(Sha1.hash(user))) {
       setCookie("user", Sha1.hash(user), expirationDays);
-      
     }
   }
   window.location = '/';
