@@ -28,7 +28,7 @@ function getCookie(user) {
 function checkCookie() {
   var user = getCookie("user");  
   if(!user) {
-    window.location = './login.html';
+    window.location = '/login.html';
   } 
 }
 
@@ -38,5 +38,8 @@ function login () {
   //set cookie
   if (user != "" && user != null && users.includes(Sha1.hash(user))) {
     setCookie("user", Sha1.hash(user), expirationDays);
+    window.location = '/';
+  } else {
+    var user = prompt("Please enter your password:", "");
   }
 }
