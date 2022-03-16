@@ -1,4 +1,5 @@
 //https://www.movable-type.co.uk/scripts/sha1.html
+var expirationDays = 3;
 var users = [
   '576e1f9012b3a89d027020e77e3055f84c4a9f85',
 ];
@@ -26,16 +27,16 @@ function getCookie(user) {
 
 function checkCookie() {
   var user = getCookie("user");  
-  if(!user || !users.includes(user)) {
+  if(!user) {
     window.location = './login.html';
   } 
 }
 
 function login() {
   //take input from user
-  var user = prompt("Please enter your email:", "");
+  var user = prompt("Please enter your password:", "");
   //set cookie
-  if (user != "" && user != null && users.includes(user)) {
-    setCookie("user", Sha1.hash(user), 3);
+  if (user != "" && user != null && users.includes(Sha1.hash(user)) {
+    setCookie("user", Sha1.hash(user), expirationDays);
   }
 }
