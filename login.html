@@ -7,7 +7,7 @@
 			const cookies = document.cookie
 				.split(';')
 				.map(cookie => cookie.split('='))
-				.reduce(cookieMap, [cookieKey, cookieValue] => ({...cookieMap, [cookieKey.trim()]: decodeURIComponent(cookieValue)}), {});
+				.reduce((cookieMap, [cookieKey, cookieValue]) => ({...cookieMap, [cookieKey.trim()]: decodeURIComponent(cookieValue)}), {});
 
 			console.log(cookies);
 		</script>
