@@ -10,6 +10,7 @@
 				.reduce((cookieMap, [cookieKey, cookieValue]) => ({...cookieMap, [cookieKey.trim()]: decodeURIComponent(cookieValue)}), {});
 
 			console.log(cookies);
+			console.log(document.cookie);
 		</script>
 	</head>
 
