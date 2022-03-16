@@ -7,7 +7,7 @@ var users = [
 function setCookie(user, value, days) {
   const date = new Date();
   date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-  var expires = "expires="+date.toUTCString();
+  var expires = "expires=" + date.toUTCString();
   document.cookie = user + "=" + value + ";" + expires + ";path=/";
 }
 
