@@ -313,12 +313,7 @@ main > div:nth-child(2) a {
     border-radius: 10px;
 	margin-bottom: 1rem;
 }
-main > div:nth-child(2) a > div img:nth-child(2) {
-	display: none;
-}
-main > div:nth-child(2) a > div img:nth-child(1) {
-    max-width: 6.25rem;
-}
+
 main > div:nth-child(2) a > div > div {
     margin-top: 1rem;
     }
@@ -655,10 +650,10 @@ textarea {
         flex-direction: row;
     	margin-top: 8.1875rem;
 	}
-    main > div:nth-child(2) a > div img:nth-child(1) {
-        display: none;
-    }
-    main > div:nth-child(2) a > div img:nth-child(2) {
+    /*main > div:nth-child(2) a > div img:nth-child(1) {
+        display: visible;
+    }*/
+    main > div:nth-child(2) a > div img {
         max-width: 100%;
         display: block;
         margin-top: -2.45rem;
