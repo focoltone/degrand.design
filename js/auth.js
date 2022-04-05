@@ -1,12 +1,11 @@
 //https://www.movable-type.co.uk/scripts/sha1.html
-var expirationDays = 3;
+var expirationDays = 200;
 var users = [
   '35c6655c3f459a3932fc59fc059d2b241105dc15', 
   'ab0b2d3131715348e93e811998226e46a5adbda3', 
   'b5e06cc181f17e1859aec2d4c9ad0867479e39d6', 
   'f28340c94aa1d5568867c374a12aa7d86f778a7f',
   '7968979b63f30aff931148c94aa09a11615d5388',
-  '3d22df945c183b681ef6dd154afe50d09e8c0a6d',
   'd10d2f13dab5803d71d3fab736e4416842233ffe',
   'c10e88af3792c9f19b02140375564114734c4cc3',
   '5ad33e47f3c8a3b008157f75e59e076f39d0626d',
