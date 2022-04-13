@@ -7,11 +7,11 @@ header a {
     align-items: center;
 }
 header span {
-        color: #FCFBF9;
+        color: ##27241D;
         padding-left: 1rem;
     }
 header > div > div > div > div:nth-child(1) a {
-	 color: #CDF25F;
+	 color: #6A57A9;
 }
 /*HERO*/
 #catagories {
@@ -67,7 +67,7 @@ section img {
 	margin: 15px 0;
 }
 section span {
-	color: #CDF25F;
+	color: #27241D;
 	font-family: 'neris-black', helvetica, sans-serif;
 }
 #calendar {
@@ -90,5 +90,5 @@ section span {
 }
 #calendar h5 {
 	margin-bottom: 0;
-	color: #CDF25F;
+	color: #6A57A9;
 }

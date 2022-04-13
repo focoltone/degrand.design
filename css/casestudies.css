@@ -1,20 +1,20 @@
 
 
-nav > ul > li:nth-child(2) > a {
+/*nav > ul > li:nth-child(2) > a {
     border-bottom: 6px solid #CDF25F;
     color: #CDF25F;
 }
 
 #current {
     border-bottom: 6px solid transparent;
-    color: #FCFBF9;
+    color: #27241D;
 }
-
+*/
 
 /*========= CARDS ================================================== CARDS ===========================================================
 =========== CARDS ================================================== CARDS ===========================================================*/
 
-main > div {
+/*main > div {
     display: flex;
     flex-direction: column;
     font-family: 'neris-black', helvetica, sans-serif;
@@ -55,7 +55,7 @@ main > div p {
 }
 main > div li  {
     font-size: 1rem;
-    color: #CDF25F;
+    color: #27241D;
     position: relative;
     padding-right: 2rem;
     display: inline-block;
@@ -70,19 +70,19 @@ main > div li:after {
     height: 10px;
     top: 8px;
     right: 10px;
-}
+}*/
 
 
 
 /*:::::::::::::::::::::::::::::::::::::::: Above 960 ::::::::::::::::::::::::::::::::::::::::::*/
-@media (min-width: 660px) {
+/*@media (min-width: 660px) {*/
     
-    nav > ul > li:nth-child(2) > a {
+/*    nav > ul > li:nth-child(2) > a {
         border-bottom: 6px solid #CDF25F;
         color: ;
-    }
+    }*/
     /*CARDS*/
-    #cards {
+   /* #cards {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
@@ -100,12 +100,13 @@ main > div li:after {
     main > div a {
         max-width: 45%;
         border-radius: 5px;
-        background: #27241D;
+        border: 1px solid #D3CEC4;
+        background: #FCFBF9;
         border-radius: 10px;
         margin-bottom: 4rem;
     }
     main > div a:hover {
-        box-shadow: 0px 25px 47px #000000;
+        box-shadow: -1.27841px 37.9785px 91px rgba(0, 0, 0, 0.07), -0.255681px 7.5957px 14.7875px rgba(0, 0, 0, 0.035);
         transform: translate(0,-1px);
         transition: all 0.275s ease 0s;
     }
@@ -124,7 +125,7 @@ main > div li:after {
     }   
     main > div li  {
         font-size: 1.125rem;
-        color: #CDF25F;
+        color: #4B3599;
         position: relative;
         padding-right: 2rem;
         margin-bottom: 1rem;
@@ -135,14 +136,14 @@ main > div li:after {
         height: 18px;
         top: 5px;
         right: -5px;
-    }
+    }*/
 
 }
 
 
 
 @media (max-width: 1250px) {
- #cards {
+/* #cards {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
@@ -152,5 +153,5 @@ main > div li:after {
 #cards a {
     max-width: 100%;
 
-}
+}*/
 }
