@@ -388,17 +388,17 @@ main > div:nth-child(1) span {
 
 /*=========================================================== PROCESS ===========================================================
 ============================================================= PROCESS ===========================================================*/
-main > div:nth-child(3) {
+main > div.process {
     background: url(../images/squiggle-home.png) center top no-repeat;
     background-size: contain;
 }
-main > div:nth-child(3) > div {
+main > div.process > div {
     display: flex;   
     padding: 1.75rem;
     flex-direction: column-reverse;
     align-items: center;
 }
-main > div:nth-child(3) img {
+main > div.process img {
    max-width: 27.3125rem;  
    width: 50%;
    margin-bottom: 1rem;
