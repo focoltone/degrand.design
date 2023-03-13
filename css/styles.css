@@ -817,7 +817,7 @@ textarea {
         justify-content: space-between;
         margin-right: 4rem;
     }
-    main > div:nth-child(3) img {
+    main > div.process img {
         max-width: 32rem;
     }
     main > div:nth-child(3) > div:nth-child(2) {
