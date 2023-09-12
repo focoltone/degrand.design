@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;900&display=swap');
+
 
 /**
  * Fix fonts that render as bold in Firefox
@@ -146,6 +147,7 @@ header {
     color:#27241D;
     background: #FCFBF9;
     font-family: 'roboto', helvetica, sans-serif;
+    font-weight: 900;
     height: 4.625rem;
     display: flex;
     justify-content: center;
@@ -341,7 +343,8 @@ main > div:nth-child(3) p {
 /*=========================================================== BLURBS ===========================================================
 ============================================================= BLURBS ===========================================================*/
 main > div:nth-child(4) {
-    font-family: "proximanova-regular", helvetica, sans-serif;
+    font-family: "nunito", helvetica, sans-serif;
+    font-weight: 400;
     font-size: 1rem;
     line-height: 1.5rem;
     margin: 4.637rem 1.75rem 0px;
@@ -368,7 +371,8 @@ main > div:nth-child(4) span {
 ============================================================= FOOTER ===========================================================*/
 footer {
     background: #FCFBF9;
-    font-family: "proximanova-regular", helvetica, sans-serif;
+    font-family: "nunito", helvetica, sans-serif;
+    font-weight: 400;
     margin: 4.637rem 1.75rem 0px;
 }
 footer > div {
