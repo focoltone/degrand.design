@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;900&display=swap');
 
 
 /**
@@ -244,11 +244,12 @@ main > div:nth-child(1) span {
     margin-bottom: 1rem;
 }
 .hero h1 {
+    font-weight:500;
     font-size: 2rem;
     line-height: 2.725rem;
 }
 .hero p {
-    font-family: 'roboto', helvetica, sans-serif;
+    font-family: 'nunito', helvetica, sans-serif;
     font-weight:500;
     line-height: 1.5rem;
     margin-top: .325rem;
@@ -315,6 +316,9 @@ main > div:nth-child(1) span {
 
 /*=========================================================== PROCESS ===========================================================
 ============================================================= PROCESS ===========================================================*/
+main {
+    padding: 6rem 2rem;
+}
 main > div.process {
     background: url(../images/squiggle-home.png) center top no-repeat;
     background-size: contain;
@@ -568,8 +572,8 @@ textarea {
 
 
     /*//////////////////////////  HEADER    ///////////////////////////////*/
-    header > div > div > div {
-        font-family: 'roboto', helvetica, sans-serif;
+    header > div > div > div {  /* */
+        font-family: 'nunito', helvetica, sans-serif;
         font-weight:500;
         font-size: .85rem;
         display: flex;
@@ -580,7 +584,9 @@ textarea {
     header a + div > div {
         margin-left: 1rem;
     }
-    header p {
+    header p { /* header name */
+        font-family: 'roboto', helvetica, sans-serif;
+        font-weight: 500;
         font-size: 1.25rem;
         margin-left: 1rem;
     }
@@ -632,10 +638,14 @@ textarea {
         margin-top: 2rem ;
     }
     .homepage-hero h1 {
+        font-family: 'roboto', helvetica, sans-serif;
+        font-weight: 800;
         font-size: 4.25rem;
         line-height: 4rem;
     }
     .homepage-hero p {
+        font-family: 'nunito', helvetica, sans-serif;
+        font-weight: 500;
         font-size: 2rem;
         line-height: 2.625rem;
         margin-top: 1rem;
@@ -660,6 +670,7 @@ textarea {
     }*/
 
     .hero {
+
         display: flex;
         margin: 6rem 0 0 0 ;
         justify-content: center;
@@ -698,9 +709,8 @@ textarea {
     /*////////////////////////////////////////   CARDS  /////////////////////////////////////*/
     .cards {
     	display: flex;
-    	justify-content: space-between;
+    	justify-content: space-around;
         flex-direction: row;
-    	margin-top: 8.1875rem;
 	}
     /*main > div:nth-child(2) a > div img:nth-child(1) {
         display: visible;
@@ -721,6 +731,8 @@ textarea {
         transition: all 0.275s ease 0s;
     }
 	.cards h1 {
+        font-family: 'roboto', helvetica, sans-serif;
+        font-weight: 500;
 	    font-size: 2.8125rem;
 	    line-height: 3.5rem;
 	}
@@ -728,8 +740,8 @@ textarea {
 	    font-size: 1rem;
 	}
 	.cards p {
-		font-family: 'roboto', helvetica, sans-serif;
-        font-weight:500;
+		font-family: 'nunito', helvetica, sans-serif;
+        font-weight: 400;
 		font-size: 1.5rem;
 	    line-height: 36px; 
 	    margin: 0 0 1rem 0;
@@ -768,10 +780,14 @@ textarea {
         width: 45%;
     }
     main > div:nth-child(3) h1 {
+        font-family: 'roboto', helvetica, sans-serif;
+        font-weight: 500;
         font-size: 2.25rem;
         line-height: 2.5rem;
     }
     main > div:nth-child(3) p {
+        font-family: 'nunito', helvetica, sans-serif;
+        font-weight: 500;
         font-size: 1rem;
         line-height: 1.5rem;
         margin-top: 1rem;
