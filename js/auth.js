@@ -2,12 +2,13 @@
 var expirationDays = 200;
 var users = [
  'cbf8221492fadd4bfd7cd49c79edca21c53e8375',
+ 'ab0b2d3131715348e93e811998226e46a5adbda3'
   ];
 
 function setCookie(user, value, days) {
   const date = new Date();
   date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-  var expires = "expires=" + date.toUTCString();
+  var expires = "expires=" + date.toUTCString();  
   document.cookie = user + "=" + value + ";" + expires + ";path=/";
 }
 
