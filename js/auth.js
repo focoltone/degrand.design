@@ -1,7 +1,6 @@
 //https://www.movable-type.co.uk/scripts/sha1.html
 var expirationDays = 200;
 var users = [
- 'cbf8221492fadd4bfd7cd49c79edca21c53e8375',
  'ab0b2d3131715348e93e811998226e46a5adbda3'
   ];
 
