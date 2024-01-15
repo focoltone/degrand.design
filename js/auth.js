@@ -42,3 +42,4 @@ function login () {
   }
   window.location = '/';
 }
+
