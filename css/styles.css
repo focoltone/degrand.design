@@ -119,6 +119,12 @@ h3 {
     margin-bottom: 1rem;
 }
 
+h4 {
+     font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
 main {
     margin-top: 3rem;
     color: #27241D;
@@ -146,7 +152,7 @@ section + div {
 header {
     color:#27241D;
     background: #FCFBF9;
-    font-family: 'roboto', helvetica, sans-serif;
+    font-family: 'nunito', helvetica, sans-serif;
     font-weight: 900;
     height: 4.625rem;
     display: flex;
@@ -585,8 +591,8 @@ textarea {
         margin-left: 1rem;
     }
     header p { /* header name */
-        font-family: 'roboto', helvetica, sans-serif;
-        font-weight: 500;
+        font-family: 'Nutino', helvetica, sans-serif;
+        font-weight: 700;
         font-size: 1.25rem;
         margin-left: 1rem;
     }

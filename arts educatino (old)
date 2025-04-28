@@ -91,12 +91,11 @@
 				<section>
 					<div>
 						<h2>Client</h2>
-						<p>Urban Gateways: iOS & Android app | Dec 2018 - May 2019 </p>
-						<p><em>"Founded to address the lack of artistic exposure in Chicago-area schools and provide young adults with free tickets to attend musical recitals."</em></p>
+						<p><span>Urban Gateways</span> iOS & Android app | Dec 2018 - May 2019 </p>
 					</div>
 					<div>
 						<h2>Problem</h2>
-						<p>The web-based portal our client's members (ages 13-19) use to get tickets is confusing and buggy causing them to miss shows.</p>
+						<p>The current web-based portal that young adults use to enroll in the client's program and purchase tickets to shows is buggy and frustrating. Young adults are not being able to attend shows at high rates because of system errors, confusing ticket purchase funnel, and lack of desktop computers available at their homes. </p>
 					</div>
 
 						<!-- <div>
@@ -104,49 +103,79 @@
 							<p>Our team built an iOS and Android application for young adults to become members of our client's organization and get access to Chicago’s performing arts scene.</p>
 						</div> -->
 
-				
-<div>
-						<h2>Internal team</h2>
-	
-						<p>1x Lead UI/UX Designer, 3x Engineers, 1x Project Manager</p>
-
+					<div>
+						<h2>Client Background</h2>
+						<ul>	
+							<li><p>Founded to address the lack of artistic exposure in Chicago-area schools and providing neighborhood schools with free tickets to attend musical recitals.</p></li>
+						</ul>
 					</div>
 					
 				</section>
+
+				<section>
+					<!-- <div  id="calendar">
+						<h1>Strategy</h1>
+						<h4>December 10TH - December 21st, 2018</h4>
+						<div>
+							<div>
+								<h5>10</h5>
+								<p>Onboard client team to UX process.</p>
+								<p>Feature and competitive analysis.</p>
+							</div>
+							<div>
+								<h5>11</h5>
+								<p>Create a mood board of competitor apps.</p>
+<p>Analyze UI/UX of screen shots for competitor features.</p>
+
+							</div>
+							<div>
+								<h5>12</h5>
+								<p>Create initial mock up of home screen</p>
+								<p>Organize composition of notes for competitor screenshots.</p>
+							</div>
+							<div>
+								<h5>13</h5>
+								<p>Study interaction design of competitor apps.</p>
+								<p>Analyze research materials for Android & iOS design standards.</p>
+							</div>
+							<div>
+								<h5>14</h5>
+								<p>High-level application context map and share with the whole team.</p>
+							</div>
+						</div>
+						<div>
+							<div>
+								<h5>17</h5>
+								<p>Gather research materials for target audience.</p>
+<p>Work with client to establish tone of voice and copy style.</p>
+							</div>
+							<div>
+								<h5>18</h5>
+								<p>Create initial mock ups of keys screens.</p>
+								<p>Outline key research findings.</p>
+							</div>
+							<div>
+								<h5>19</h5>
+								<p>Outline key research findings for target user group and share with client.</p>
+							</div>
+							<div>
+								<h5>20</h5>
+								<p>Synthesize feedback from teen council meeting on initial mockups.</p>
+							</div>
+							<div>
+								<h5>21</h5>
+								<p>Create 1st prototype and share with internal and client teams.</p>
+							</div>
+						</div>
+					</div> -->
+</section>
 				
 
-nvcxd2@us.royalahold.net
-
-DATADOG
-https://myapps.microsoft.com/signin/ef0179de-9ff5-4295-b11f-7cba98251f49?tenantId=a6b169f1-592b-4329-8f33-8db8903003c7
-
-
-GITHUB
-
-
-
-
+				
 <section>
-					
 					<div>
-						<h2>Week #1 - Onboard client & comparative analysis</h2>
-						<p>The client team and I met to discuss their business needs, member needs, and goals for the mobile app. We looked at other ticket purchase services to understand how best-in-class experiences were serving their customers. It was helpful to refer to analysis when brainstorming solutions</p>
-
-						<h4>Comparative analysis</h4>
-
-					<div>
-						<img src="images/context-map.png" alt="">
-					</div>
-					
-					</div>
-
-
-
-
-
-					<div>
-						<h2>Week #2 - Site maps & user flows</h2>
-						<p>The first week of the project the client team and I met to discuss their business needs, the needs of their members, and their goals for the mobile app. Together, we defined four types of users for the app. Using their existing web-portal, I created a site map and four user flows that incorporated the new features they wanted to add.</p>
+						<h2>Application Flow</h2>
+						<p>The client team and I met to discuss the initial user flow for the application. I invited them to an Invision file where we were all able to collaborate. I captured their ideas and considerations while building a low-fi mockup of each section of the application. The outcome was a user flow that incorporated the client’s vision for the app experience.</p>
 
 					<div>
 						<img src="images/context-map.png" alt="">
@@ -156,13 +185,13 @@ GITHUB
 
 				
 
-					<h2>Week #3 Research & interviews</h2>
+					<h2>Framing Ideas For Our Approach</h2>
 						<p>I put together a list of resources to learn more about young adults interacting with web and mobile apps. This helped set constraints and gave me and the team a basic understanding of how younger adults interact with digital products.</p>
-
 						<p>Young adults think they are web and mobile experts, though their usability test results are lower than average compared to adults. This is mostly due to lower literacy levels, less patience, and lack of experience with research, making them very susceptible to missing key information or details in an interface.</p>
 					</div>
 					<div>
-						
+						<h2>Events List</h2>
+						<p>The client wanted the events list feature to be the star of the application and wanted to place the user in the event list immediately after logging in. This was the 2nd most complex feature in the app, pulling in data from Wordpress and allowing young adults to save the events they liked in a favorites list.</p>
 </div>					
 
 </section>
@@ -174,17 +203,12 @@ GITHUB
 
 <section>
 
-					<h2>Week #5 Designing key features</h2>
-						<p>The client wanted the events list feature to be the star of the application and wanted to place the user in the event list immediately after logging in. This was the 2nd most complex feature in the app, pulling in data from Wordpress and allowing young adults to save the events they liked in a favorites list.</p>
-
-
 						<p>The client team was thinking a lot about their users, and they were fixated on account creation as a prerequisite for using the apps features. However, they were open to feedback from our team about keeping the events list feature accessible without having to create an account. I eased their concerns by explaining that we can cut through complexity and provide value up front by prompting users to set up their account in the app after allowing them to browse events and shows.</p>
 						<p>We also discussed interacting with the events. Initial concepts were liking an event, refreshing the list, viewing the event detail, and changing the order of how the events are listed, filters, etc.</p>
 					</div>
-
 					<div>
-						<h2>Week #6 User testing</h2>
-						<p>Prototype We had done a lot of work, but we were eager to check in with the members of the program and validate our ideas. The client hosts their bi-weekly teen council meeting that many young adults attend. The client agreed to designate a portion of the meeting to gather feedback on a sprint-by-sprint basis. We used a Google Doc to add questions and collect responses.</p>
+						<h2>Consistent Access To End-Users</h2>
+						<p>We had done a lot of work, but we were eager to check in with the members of the program and validate our ideas. The client hosts their bi-weekly teen council meeting that many young adults attend. The client agreed to designate a portion of the meeting to gather feedback on a sprint-by-sprint basis. We used a Google Doc to add questions and collect responses.</p>
 					</div>
 					<div>
 						<h2>1st Round of Feedback</h2>
@@ -198,7 +222,54 @@ GITHUB
 </section>
 
 <section>
-				
+					<!-- <div  id="calendar">
+						<h1>Research</h1>
+						<h4>January 7th - 18th, 2020</h4>
+						<div>
+							<div>
+								<h5>25</h5>
+								<p>Sketching & Design Iteration, Testing Planning.</p>
+							</div>
+							<div>
+								<h5>26</h5>
+								<p>Prototyping & Testing.</p>
+							</div>
+							<div>
+								<h5>27</h5>
+								<p>Design Iteration, Higher Fidelity Designs.</p>
+							</div>
+							<div>
+								<h5>28</h5>
+								<p>Add To/Update Prototype,  Research (mobile usability).</p>
+							</div>
+							<div>
+								<h5>29</h5>
+								<p>Design Iteration & Feedback.</p> 
+							</div>
+						</div>
+						<div>
+							<div>
+								<h5>25</h5>
+								<p>Add To/Update Prototype.</p>
+							</div>
+							<div>
+								<h5>26</h5>
+								<p>Design Iteration & Feedback.</p>
+							</div>
+							<div>
+								<h5>27</h5>
+								<p>Design Iteration & Feedback.</p>
+							</div>
+							<div>
+								<h5>28</h5>
+								<p>Research (Illustrations).</p>
+							</div>
+							<div>
+								<h5>29</h5>
+								<p>Client Meeting & Design.</p> 
+							</div>
+						</div>
+					</div> -->
 					<div>
 						<h2>Refining High-Level Concepts</h2>
 						<p>We were able to make a lot of high-level decisions having a map of our features and the back-end layers visualized for the whole team. We ideated this flowchart based on the feedback we collected from the client team using Zeplin, a design handoff tool, to pose questions and generate ideas.</p>
@@ -258,6 +329,70 @@ GITHUB
 						<div><img src="images/art-flow.png" alt=""></div>
 					
 
+				<section>
+					<div  id="calendar">
+						<h1>Event Detail & Check In</h1>
+						<h4>FEBRUARY 4TH - 20TH, 2020</h4>
+						<div>
+							<div>
+								<h5>04</h5>
+								<p>Research (iOS Features/Apps Integration)</p>
+							</div>
+							<div>
+								<h5>05</h5>
+								<p>Prototyping & Testing</p>
+							</div>
+							<div>
+								<h5>06</h5>
+								<p>Design Iteration & Feedback.</p>
+							</div>
+							<div>
+								<h5>07</h5>
+								<p>Add To/Update Prototype,  Research (mobile usability).</p>
+							</div>
+							<div>
+								<h5>08</h5>
+								<p>Research (inclusive design).</p> 
+							</div>
+						</div>
+						<div>
+							<div>
+								<h5>11</h5>
+								<p>Sketching & Design Iteration.</p>
+							</div>
+							<div>
+								<h5>12</h5>
+								<p>Design.</p>
+							</div>
+							<div>
+								<h5>13</h5>
+								<p>Research (iOS & Android Keyboards).</p>
+							</div>
+							<div>
+								<h5>14</h5>
+								<p>Research (inclusive design).</p>
+							</div>
+							<div>
+								<h5>15</h5>
+								<p>Client Meeting & Design.</p> 
+							</div>
+						</div>
+						<div>
+							<div>
+								<h5>18</h5>
+								<p>Testing Planning.</p>
+							</div>
+							<div>
+								<h5>19</h5>
+								<p>Prototyping & Testing.</p>
+							</div>
+							<div>
+								<h5>20</h5>
+								<p>Design Iteration & Feedback.</p>
+							</div>
+						</div>
+					</div>
+</section>
 					<div><img src="images/art-checkin.png" alt=""></div>
 
 <section>

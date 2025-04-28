@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;900&display=swap');
 
 /*HEADER*/
 header a {
@@ -11,7 +11,7 @@ header span {
         padding-left: 1rem;
     }
 header > div > div > div > div:nth-child(1) a {
-	 color: #6A57A9;
+	 color: #27241D;
 }
 /*HERO*/
 #catagories {
@@ -26,6 +26,8 @@ header > div > div > div > div:nth-child(1) a {
     width: 25rem;
     left: 10%;
 }
+
+
 article {
 	margin: 6rem auto 16rem;
 }
@@ -36,10 +38,10 @@ section {
 	margin-bottom: 2.5rem;
 }
 section h1, h4, h5 {
-	font-family: 'neris-black', helvetica, sans-serif;
+	font-family: 'nunito', helvetica, sans-serif;
 }
 section h2 {
-	font-family: 'neris-semibold', helvetica, sans-serif;
+	font-family: 'nunito', helvetica, sans-serif;
 }
 section h1 {
 	font-size: 2.8125rem;
@@ -48,6 +50,7 @@ section h1 {
 section h2 {
 	font-size: 1.675rem;
 	margin-bottom: .75rem;
+	font-weight:500;
 }
 section h4 {
 	font-size: 1.25rem;
@@ -68,7 +71,8 @@ section img {
 }
 section span {
 	color: #27241D;
-	font-family: 'neris-black', helvetica, sans-serif;
+	font-family: 'nunito', helvetica, sans-serif;
+	font-weight: 700;
 }
 #calendar {
 
