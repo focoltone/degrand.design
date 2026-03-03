@@ -1,7 +1,7 @@
 //https://www.movable-type.co.uk/scripts/sha1.html
 var expirationDays = 200;
 var users = [
- 'ab0b2d3131715348e93e811998226e46a5adbda3'
+ '6ab9a07ee86796612f9b1dce15d83d153bf60ba3'
   ];
 
 function setCookie(user, value, days) {
